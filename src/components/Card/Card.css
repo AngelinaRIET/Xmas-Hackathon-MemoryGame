@@ -1,0 +1,31 @@
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail{
+    border-style: solid;
+    border: 1.7px solid rgb(220, 20, 60);
+    border-radius: 7px;
+    box-shadow: 0 4px 5px 0 rgba(255, 0, 51, 0.459);   
+    margin-left:10px;
+    margin-right: 10px;
+    padding:0;
+    width: 50%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 800px ) {
+    .thumbnail img {
+        height: auto;
+        width: auto;
+    }
+
+    .thumbnail{
+        width:80%;
+        height:auto;
+        margin:3px;
+        padding-top:3px;
+        padding-bottom: 3px;
+    }
+}
