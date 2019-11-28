@@ -1,11 +1,10 @@
 .jumbotron{
     text-align:center;
+    margin:10px 0 0;
+    padding:0;
+    position: relative; top: -20px;
     background: linear-gradient(180deg, #dc143c);
     box-shadow: 0 1px 6px 0 rgba(0,0,0,.27);
-    margin: 0;
-    padding: 0;
-    height: auto;
-    position: relative;
 }
 
 h1{
