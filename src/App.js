@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Jumbotron from './components/Jumbotron/Jumbotron.js';
 import Card from './components/Card/Card.js';
+import Snow from './components/Snow.js';
 import cards from './cards.json';
 import './index.css';
 
@@ -56,11 +57,12 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Snow />
         <Jumbotron score={this.state.score} highScore={this.state.highScore} />
         <div className="container nopadding">
           {this.state.cards.map(cardRender => (
             <div className='col-md-2 col-xs-4 nopadding' id={cardRender.id}>
-              <Card 
+              <Card
                 image={cardRender.image}
                 randomCards={() => { this.randomCards(this.state.cards) }}
                 updateScore={() => { this.updateScore(cardRender.id) }} />

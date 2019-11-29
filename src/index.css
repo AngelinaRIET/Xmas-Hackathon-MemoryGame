@@ -13,6 +13,7 @@ body {
   
   margin: 0 !important;
   padding: 0 !important;
+  z-index: 12;
 }
 .container{
   margin: 0 !important;
@@ -23,8 +24,6 @@ body {
 .card-position{
   margin: 0 !important;
   padding: 0 !important;
-  
-
 }
 
 @media screen and (max-width: 800px ) {

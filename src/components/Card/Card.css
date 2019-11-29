@@ -16,9 +16,6 @@
 
 
 
-
-
-
 @media screen and (max-width: 800px ) {
     .thumbnail img {
         height: auto;
@@ -28,7 +25,7 @@
     .thumbnail{
         padding:auto;
         width: 90%;
-        margin: 0 auto;
+        margin: 4px auto;
         box-shadow: none;
     }
 }
