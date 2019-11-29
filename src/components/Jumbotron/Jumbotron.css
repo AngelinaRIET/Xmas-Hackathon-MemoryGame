@@ -1,8 +1,9 @@
 .jumbotron{
     text-align:center;
-    margin:10px 0 0;
+    margin: 0;
     padding:0;
-    position: relative; top: -20px;
+    position: relative; top: -25px;
+    height: auto;
     background: linear-gradient(180deg, #dc143c);
     box-shadow: 0 1px 6px 0 rgba(0,0,0,.27);
 }

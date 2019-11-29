@@ -57,10 +57,10 @@ class App extends Component {
     return (
       <div>
         <Jumbotron score={this.state.score} highScore={this.state.highScore} />
-        <div className="container">
+        <div className="container nopadding">
           {this.state.cards.map(cardRender => (
             <div className='col-md-2 col-xs-4 nopadding' id={cardRender.id}>
-              <Card className="card-position"
+              <Card 
                 image={cardRender.image}
                 randomCards={() => { this.randomCards(this.state.cards) }}
                 updateScore={() => { this.updateScore(cardRender.id) }} />
